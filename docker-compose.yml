@@ -1,0 +1,15 @@
+name: cryptopulse
+version: '3.8'
+
+services:
+  crypto-pulse:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: crypto-pulse-app:v1
+    container_name: crypto-pulse-dashboard
+    ports:
+      - "3000:80"
+    restart: always
+    environment:
+      - NODE_ENV=production
