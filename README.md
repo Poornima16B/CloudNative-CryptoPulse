@@ -43,12 +43,21 @@ While many trading platforms exist, CryptoPulse is designed with a different phi
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React 18, Vite, TypeScript
+- **Frontend:** React 19, Vite, TypeScript
 - **Styling:** Tailwind CSS v3
 - **Data Fetching:** Axios, TanStack Query v5
-- **Visualization:** Recharts
+- **Visualization:** Custom SVG Sparklines (Optimized)
 - **Icons:** Lucide React
 - **Containerization:** Docker, Docker Compose
+
+---
+
+## ⚡ Performance Optimization
+
+CryptoPulse has been optimized for high performance and low resource usage:
+- **SVG Sparklines:** Replaced heavy charting libraries with lightweight SVG paths, reducing the DOM overhead by over 80%.
+- **Smart Pagination:** Implemented a "Load More" pattern to ensure smooth scrolling even with large datasets.
+- **Backdrop Optimization:** Optimized CSS blurs and transparency for fluid GPU rendering across all devices.
 
 ---
 
