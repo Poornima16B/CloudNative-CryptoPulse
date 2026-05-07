@@ -95,4 +95,4 @@ The app will be available at `http://localhost:3000`.
 
 ---
 
-Developed as a **CNA Lab Project** | 2024
+Developed as a **CNA Lab Project** | 2026
